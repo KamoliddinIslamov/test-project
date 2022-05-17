@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100% !important;
+    background-color: seagreen;
+}
+
+.navbarTop {
+    width: 100% !important;
+    display: flex;
+    height: 80px;
+    justify-content: flex-end;
+}
+
+.navbarTop .navLink {
+    display: flex;
+    margin-top: 10px;
+}
+
+.vector {
+    position: absolute;
+    margin-left: -350px;
+    width: 70px;
+    height: 70px;
+}
+
+.text {
+    color: white;
+    margin-left: 130px;
+}
+
+button {
+    border-radius: 25px !important;
+}
+
+.div {
+    background-image: url("../rasimlar/ekran.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sercul {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.telifon {
+    position: absolute;
+    margin: 31px 343px;
+}
+
+.raqamlar {
+    margin-right: 130px;
+    margin-top: 15px;
+}
+
+.rasim {
+    background-image: url("../rasimlar//image33.png");
+    width: 100% !important;
+    height: 200px;
+    background-size: 1194px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    background-position: center;
+    margin-top: 102px;
+}
+
+.raqamlar a:hover {
+    color: green;
+}
+
+.raqamlar a {
+    text-decoration: none;
+    color: green;
+    font-weight: 400;
+}
+
+.navbarTop .nav {
+    margin: 27px;
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+    font-weight: 700;
+    text-shadow: 0 0 20px;
+}
+
+.sidebarLeft {
+    margin-top: -120px;
+    position: relative;
+    z-index: -1;
+    width: 20%;
+}
+
+.matn {
+    margin-top: 250px;
+    position: relative;
+    z-index: 2;
+}
+
+.sidebar {
+    display: flex;
+    width: 100%;
+}
+
+.rasim1:hover {
+    border: 2px solid green;
+}
+
+.rasim1 {
+    display: flex;
+    width: 100%;
+    padding: 10px 10px 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.rasim1>img {
+    width: 200px;
+    height: 200px;
+}
+
+.imgeslar {
+    display: flex;
+    width: 90%;
+}
+
+.rasimRight {
+    margin-left: 12px;
+}
+
+.soz {
+    margin: 25px 12px 0px;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+.textMatn {
+    width: 45%;
+    margin-top: 80px;
+    line-height: 40px;
+}
+
+.textMatn h1 {
+    margin: 50px 0;
+}
+
+.photos>img {
+    width: 250px;
+    position: absolute;
+}
+
+.photos {
+    width: 55%;
+}
+
+.pomidor {
+    margin: 90px 40px;
+    position: relative;
+    z-index: 1;
+    width: 280px !important;
+}
+
+.bulut {
+    margin: -70px 240px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.tractor {
+    margin: 240px 30px;
+    position: relative;
+    z-index: 2;
+    width: 300px !important;
+}
+
+.bolgar {
+    margin: 90px 190px;
+}
